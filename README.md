@@ -8,4 +8,12 @@ HTML5_Web
   <img src="./photos/Anasayfa.png" width="250"/>
   <img src="./photos/Anasayfa_webTasarım.png" width="250"/>
   <img src="./photos/Anasayfa_YazılımUzmanlığı.png" width="250"/>
+
+  <img src="./photos/checkbox.png" width="250"/>
+  <img src="./photos/form.png" width="250"/>
+  
+
+  <img src="./photos/Kurslar.png" width="250"/>
+  <img src="./photos/Kurslar_1" width="250"/>
+
 </div>
