@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formlar</title>
+</head>
+<body>
+    <!-------------------------------->
+    <h1>Üye Kayıt Formu:</h1>
+    <form name="kayit" action="kayit.php" method="get">
+        Ad Soyad:  <input type="text" name="adsoyad">
+        <br>
+        <input type="submit" value="Kayıt Ol">
+    </form>
+    <br>
+    <!-------------------------------->
+    <h2>Metin Kutusu</h2>
+    <form name="kayit" action="kayit.php" method="get">
+        Ad Soyad: 
+        <input type="text" name="adsoyad" id="idadsoyad" 
+        size="20" maxlength="30" required> <!-- required girmeyi zorunlu kılar-->
+        <br>
+        <input type="submit">
+
+    </form>
+    <br>
+    <!-------------------------------->
+    <h3>Onaylama ve İptal Butonu</h3>
+    <form name="kayit" action="kayit.php" method="get">
+        Ad Soyad: 
+        <input type="text" name="adsoyad" id="idadsoyad" 
+        size="20" maxlength="30" required> <!-- required girmeyi zorunlu kılar-->
+        <br>
+        <input type="submit" value="Onayla">
+        <input type="reset" value="Temizle">
+
+    </form>
+    <br>
+    <!-------------------------------->
+    <h4>Email, URL ve Number Kutuları </h4>
+    <form name="kayit" action="kayit.php" method="get">
+        Ad Soyad: 
+        <input type="text" name="adsoyad" id="idadsoyad" 
+        size="20" maxlength="30" required> <!-- required girmeyi zorunlu kılar-->
+        <br>
+        Email: 
+        <input type="email" name="email" id="email" required>
+        <br>
+        Web sitesi:
+        <input type="url" name="adres" id="adres">
+        <br>
+        Yaşınız: 
+        <input type="number" name="yas" id="yas" required>
+        <br>
+        <input type="submit" value="Onayla">
+        <input type="reset" value="Temizle">
+
+    </form>
+    <br>
+</body>
+</html>

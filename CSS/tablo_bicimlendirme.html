@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablo Biçimlendirme</title>
+    <style>
+        table{
+            color: blue;
+            background-color: orange;
+            border-collapse: collapse; /* Çift çizgiler kayboldu. */
+            border-width: 15px;
+        }
+        th {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 16px;
+            font-weight: bolder;
+            color: red;
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            background-image: url(bayrak.PNG);
+            background-size: 30px;
+            background-repeat: no-repeat;
+            background-position: center;
+
+        }
+        td{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 12px;
+            font-style: italic;
+            font-weight: bolder;
+            text-align: center;
+            padding: 5px;
+            vertical-align: auto; /* Metin konumu gibi*/
+            height: 30px;
+            border-width: 5px;
+            border-color: brown;
+            border-style: dotted;
+        }
+    </style>
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <th>Şehir</th>
+            <th>Nüfus</th>
+        </tr>
+        <tr>
+            <td>İstanbul</td>
+            <td>15</td>
+        </tr>
+        <tr>
+            <td>Ankara</td>
+            <td>14</td>
+        </tr>
+        <tr>
+            <td>İzmir</td>
+            <td>10</td>
+        </tr>
+
+    </table>
+</body>
+</html>

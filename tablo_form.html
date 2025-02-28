@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablo ile Form</title>
+</head>
+<body>
+    <h1>Üye Kayıt Formu: </h1>
+    <form name="kayit" action="kayit.aspx" method="get">
+        <table >
+            <tr><td>Ad Soyad:</td> <td><input type="text" name="adsoyad" placeholder="Ad Soyad"></td></tr>
+            <tr><td>Email:</td> <td><input type="email" name="email" placeholder="Email"></td></tr>
+            <tr><td></td> <td><input type="submit"> <input type="reset"></td></tr>
+        </table>
+    </form>
+
+    <h2>Metin Alanı Örneği</h2>
+    <form autocomplete="on">
+        Ad Soyad: <input type="text">
+        <br>
+        Email: <input type="email">
+        <br>
+        Öneri: <textarea name="oneri" rows="5" cols="10"></textarea>
+        <br>
+        <input type="submit"> 
+        <input type="reset">
+    </form>
+</body>
+</html>

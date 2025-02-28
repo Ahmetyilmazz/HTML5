@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablolar</title>
+</head>
+
+<body>
+    <h1>Tablo Oluşturma:</h1>
+    <!-- tr=> Satır için, td=> stün için -->
+    <table border="1">
+        <tr> <!-- 1. Satır-->
+            <td>Ad Soyad: </td> <!-- 1. Sütun-->
+            <td>Ahmet YILMAZ</td> <!-- 2. Sütun-->
+        </tr>
+        <tr> <!-- 2. Satır-->
+            <td>Doğum Yeri</td>
+            <td>İstanbul</td>
+        </tr>
+    </table>
+
+    <br><br>
+    <h3>İkinci Tablo;</h3>
+    <table border="5">
+        <!-- <caption>: tabloya başlık vermek için kullanılır-->
+        <caption>
+            Şehir Nüfusları
+        </caption>
+        <!-- <thead>: başlık bölümünü belirtir .-->
+        <thead>
+            <tr>
+                <th> <!--<th>: tablo başlıklarını içeren hücreleri oluşturur -->
+                    Ülke
+                </th>
+                <th>
+                    Nüfus
+                </th>
+            </tr>
+        </thead>
+        <!-- <tbody>: veri bölümünü belirtir -->
+        <tbody> 
+            <tr>
+                <td>İstanbul</td>
+                <td>15.066.000 </td>
+            </tr>
+            <tr>
+                <td>Ankara</td>
+                <td>5.803.000 </td>
+            </tr>
+            <tr>
+                <td>İzmir</td>
+                <td>4.479.525</td>
+            </tr>
+            <!-- colspan satırlardaki hücreleri birleştirir.-->
+            <!-- colspan sütunlardaki hücreleri birleştirir.-->
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">Toplam Nüfus: 30.348.525</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CheckBox</title>
+</head>
+
+<body>
+    <h1>Onay Kutusu</h1>
+    <form name="onay">
+        <input type="checkbox" name="bulten"> Bültene Abone Ol
+        <br>
+        <br>
+        <input type="checkbox" name="medeni"> Evliyim
+        <br>
+        <br>
+        <input type="submit" value="Abone Ol">
+    </form>
+    <hr>
+    <hr>
+    <h1>Seçenek Kutusu</h1>
+    <form name="secenek">
+        <h2>Sevdiğiniz sporu seçiniz:</h2>
+        <!-- name="spor" name kısımları aynı olmalıdır.-->
+        <input type="radio" name="spor" value="futbol" checked> Futbol <!-- checked ile otomatik seçili olmasını sağlıyor.-->
+        <input type="radio" name="spor" value="basket"> Basket
+        <input type="radio" name="spor" value="voleybol"> Voleybol
+        <br>
+        <input type="submit"> <input type="reset">
+    </form>
+    <hr>
+    <hr>
+    <h1>Seçenek Listesi / Combo</h1>
+    <form>
+        Doğum Yeri: 
+        <select name="dyeri" id="dyeri">
+            <option>Adana</option>
+            <option>Antalya</option>
+            <option>Ankara</option>
+            <option selected>İstanbul</option> <!-- selected ile null değeri atanıyor.-->
+            <option>İzmir</option>
+        </select>
+        <br>
+        <input type="submit" value="Seçiniz">
+        <input type="reset">
+    </form>
+    <hr>
+    <hr>
+    <!-- Resimli Form Onaylama Butonu-->
+    <h1>Resimli Form Onaylama Butonu </h1>
+    <form name="onay" action="onay.php" method="get">
+        Ad Soyad: <input type="text" name="adsoyad"> 
+        <br>
+        <br>
+        Email: <input type="email" name="email"> 
+        <br>
+        <br>
+        İleti: <textarea name="ileti" rows="4" cols="50"></textarea>
+        <br>
+        <br>
+        <input type="image" src="resimler/submit1.png" width="100">
+    </form>
+</body>
+</html>

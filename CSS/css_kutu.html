@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS KUTU MODEL</title>
+    <style>
+        /*
+        - Kutu boyutunu belirlemek için width ve height özellikleri
+        - padding içerik aralıklarını belirlemek için
+        - margin kenarla dış nesneler arası mesafe
+        - border; kutu kenarlıklarını kontrol etmek için kullanılır.
+        */
+        h1 {
+            border-style: solid; /* Kutunun tipi */
+            border-width: 10px; /* Kutunun kalınlığı */ 
+            border-color: red; /* Kutunun rengi */
+            width: 200px;
+            height: 80px;
+            padding: 0px 50px 10px 20px;
+            margin: 30px;
+        }
+        h2 {
+            border-style: dotted;
+            border-width: 10px;
+            border-color: red blue orange green;
+            width: 200px;
+            height: 80px;
+            padding: 0px 50px 10px 20px;
+            margin: 30px;
+        }
+        p {
+            border-style: solid;
+            border-width: 5px;
+            border-color: red;
+            width: 80px;
+            height: 200px;
+            padding: 10px;
+            margin: 30px;
+            background-color: gray;
+            background-image: url(bayrak.PNG);
+            background-size: 70px;
+            background-repeat: no-repeat ; /* Resim tekrarlı olup olmaması satırı*/
+            background-position: center; /* Resimin pozisyonu*/
+            
+        }
+        body {
+            border-style: dashed;
+            background-image: url(bayrak.PNG);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 1000px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Eğitimlerimiz</h1>
+    <hr>
+    <h2>Temel Bilişim  Eğitimleri</h2>
+    <p>Windows</p>
+    <p>Word</p>
+    <p>Excel</p>
+</body>
+</html>
